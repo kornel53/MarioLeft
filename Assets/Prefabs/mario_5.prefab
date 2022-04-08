@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 6852914279568441390}
   - component: {fileID: -2856275663230931341}
   - component: {fileID: 5516325659095021798}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mario_5
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -144,4 +144,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c8fe0ce78986974d82633d86bb7924a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GroundLayer:
+    serializedVersion: 2
+    m_Bits: 64
   Speed: 1
+  JumpForce: 1
