@@ -1,10 +1,10 @@
 using UnityEngine;
 
-public class EnemyMovement : MonoBehaviour
+public class LeftRightMovement : MonoBehaviour
 {
     public LayerMask GroundLayer;
 
-    private float Speed = -0.5f;
+    private float Speed = 0.5f;
     void Start()
     {
         
